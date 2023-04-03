@@ -1,0 +1,7 @@
+{
+    "linear_tags":  ["highway", "barrier"],
+    "area_tags":    null,
+    "format_options": {
+        "print_record_separator": false
+    }
+}
