@@ -1,6 +1,6 @@
 {
-    "linear_tags":  ["highway", "barrier"],
-    "area_tags":    null,
+    "linear_tags":  ["highway", "natural=coastline", "waterway", "barrier", "wall", "footway", "bridge", "tunnel", "railway", "power", "crossing","area=no"],
+    "area_tags":    ["building", "surface", "landuse", "natural!=coastline", "amenity", "leisure", "water", "parking", "sport", "crossing", "golf","area!=no", "boundary", "wetland"],
     "format_options": {
         "print_record_separator": false
     }
