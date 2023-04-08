@@ -31,4 +31,4 @@ jobs:
 
       # Run it all!
       - name: Run a one-line script
-        run: bash fetch-convert-filter-upload.sh
+        run: bash process-all.sh
