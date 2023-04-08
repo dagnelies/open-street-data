@@ -2,6 +2,11 @@
 
 Country data dumps from OpenStreetMaps in GeoJson format
 
+### Countries
+
+Sometimes, it is not even clear if an area is an independent country or not.
+Take Kosovo for example. Half of the world consider it to be a sovereign country, the other half consider it to be a part of Serbia. See https://en.wikipedia.org/wiki/International_recognition_of_Kosovo for more details.
+
 ### Remarks regarding area handling
 
 "Closed Ways" can be interpreted as both a "way" or an "area" depending on what it represents.
