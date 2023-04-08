@@ -12,19 +12,20 @@ jobs:
   # This workflow contains a single job called "build"
   fetch-convert-filter-upload:
     # The type of runner that the job will run on
-    runs-on: ssubbotin/osmium-tool
+    #runs-on: ssubbotin/osmium-tool
+    runs-on: ubuntu:latest
     
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Install packages
-        run: apt install pbzip2 rclone
+        run: apt install -y pbzip2 rclone osmium-tool
         
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
       - name: Config for rclone
         run: echo $RCLONE_CONF > rclone.conf
-        
+
       # Run it all!
       - name: Run a one-line script
         run: bash fetch-convert-filter-upload.sh
