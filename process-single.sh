@@ -21,11 +21,22 @@ echo "Converting PBF to GeoJson"
 osmium export --add-unique-id=type_id --overwrite --config=osmium-config.json --output-format=geojsonseq --output="temp/${COUNTRY}.geo.jsonseq" "temp/${COUNTRY}.osm.pbf"
 echo "Rows: `wc -l temp/${COUNTRY}.geo.jsonseq`"
 
-echo "Compressing..."
-time pbzip2 -f -k temp/${COUNTRY}.geo.jsonseq
+
+echo "Filter..."
+grep '"boundary":' temp/${COUNTRY}.geo.jsonseq > temp/${COUNTRY}-areas.geo.jsonseq
+grep '"highway":' temp/${COUNTRY}.geo.jsonseq | grep '"name":' > temp/${COUNTRY}-streets.geo.jsonseq
+grep '"addr:housenumber":' temp/${COUNTRY}.geo.jsonseq > temp/${COUNTRY}-housenums.geo.jsonseq
+
+
+echo "Compress..."
+time pbzip2 -f temp/${COUNTRY}.geo.jsonseq
 ls -lh temp/${COUNTRY}.*
+
+echo "Extract addresses... TODO"
+
 
 echo "Upload..."
 rclone --config="rclone.conf" copy temp/${COUNTRY}.geo.jsonseq.bz2 r2:${CONTINENT}/
 
-rm temp/${COUNTRY}.geo.jsonseq.bz2
+echo "Cleanup..."
+#rm temp/${COUNTRY}.geo.jsonseq.bz2
