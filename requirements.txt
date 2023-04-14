@@ -1,5 +1,7 @@
 papermill
+jupyter
 geopandas
 pyogrio
 tqdm
 matplotlib
+contextily
