@@ -15,7 +15,7 @@ cat countries.tsv | while read -r CONTINENT CODE COUNTRY; do
   echo "---- ${CONTINENT} ${CODE} ${COUNTRY} ----"
   if [ -f temp/${COUNTRY}.done ]; then
           echo "Already done"
-          exit 0
+          continue
   fi
 
   export CONTINENT
