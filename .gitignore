@@ -1,3 +1,7 @@
 temp
 rclone.conf
 addresses
+*jsonseq
+*.bz2
+*.gz
+*.pbf

@@ -23,7 +23,7 @@ cat countries.tsv | while read -r CONTINENT CODE COUNTRY; do
   export COUNTRY
 
   bash convert.sh
-  bash extract.sh
+  bash addresses.sh
   bash publish.sh
   bash website.sh
 

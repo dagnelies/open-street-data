@@ -1,0 +1,1958 @@
+{
+    "directory": "extracts",
+    "extracts": [
+        {
+            "description": "Barbados / Barbados",
+            "multipolygon": {
+                "file_name": "BB-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BB.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Jamaica / Jamaica",
+            "multipolygon": {
+                "file_name": "JM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "JM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Nauru / Naoero",
+            "multipolygon": {
+                "file_name": "NR-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "NR.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Isle of Man / Isle of Man",
+            "multipolygon": {
+                "file_name": "IM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "IM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Saint Helena, Ascension and Tristan da Cunha / Saint Helena, Ascension and Tristan da Cunha",
+            "multipolygon": {
+                "file_name": "SH-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SH.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Bermuda / Bermuda",
+            "multipolygon": {
+                "file_name": "BM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Mauritius / Mauritius / Maurice",
+            "multipolygon": {
+                "file_name": "MU-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MU.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Samoa / Sāmoa",
+            "multipolygon": {
+                "file_name": "WS-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "WS.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Niue / Niuē",
+            "multipolygon": {
+                "file_name": "NU-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "NU.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Cayman Islands / Cayman Islands",
+            "multipolygon": {
+                "file_name": "KY-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "KY.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Seychelles / Sesel",
+            "multipolygon": {
+                "file_name": "SC-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SC.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Tuvalu / Tuvalu",
+            "multipolygon": {
+                "file_name": "TV-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TV.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "British Virgin Islands / British Virgin Islands",
+            "multipolygon": {
+                "file_name": "VG-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "VG.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Falkland Islands / Falkland Islands",
+            "multipolygon": {
+                "file_name": "FK-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "FK.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Vanuatu / Vanuatu",
+            "multipolygon": {
+                "file_name": "VU-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "VU.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Djibouti / Djibouti جيبوتي",
+            "multipolygon": {
+                "file_name": "DJ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "DJ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "São Tomé and Príncipe / São Tomé e Príncipe",
+            "multipolygon": {
+                "file_name": "ST-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "ST.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Gibraltar / Gibraltar",
+            "multipolygon": {
+                "file_name": "GI-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GI.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "The Bahamas / The Bahamas",
+            "multipolygon": {
+                "file_name": "BS-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BS.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Turks and Caicos Islands / Turks and Caicos Islands",
+            "multipolygon": {
+                "file_name": "TC-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TC.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Liechtenstein / Liechtenstein",
+            "multipolygon": {
+                "file_name": "LI-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "LI.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Lesotho / Lesotho",
+            "multipolygon": {
+                "file_name": "LS-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "LS.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Maldives / ދިވެހިރާއްޖެ",
+            "multipolygon": {
+                "file_name": "MV-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MV.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Niger / Niger",
+            "multipolygon": {
+                "file_name": "NE-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "NE.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Sierra Leone / Sierra Leone",
+            "multipolygon": {
+                "file_name": "SL-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SL.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Madagascar / Madagasikara / Madagascar",
+            "multipolygon": {
+                "file_name": "MG-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MG.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Dominica / Dominica",
+            "multipolygon": {
+                "file_name": "DM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "DM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Anguilla / Anguilla",
+            "multipolygon": {
+                "file_name": "AI-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "AI.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Egypt / مصر",
+            "multipolygon": {
+                "file_name": "EG-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "EG.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Andorra / Andorra",
+            "multipolygon": {
+                "file_name": "AD-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "AD.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Jersey / Jersey",
+            "multipolygon": {
+                "file_name": "JE-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "JE.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Monaco / Monaco",
+            "multipolygon": {
+                "file_name": "MC-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MC.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Monaco / Monaco",
+            "multipolygon": {
+                "file_name": "MC-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MC.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Guernsey / Guernsey",
+            "multipolygon": {
+                "file_name": "GG-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GG.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "San Marino / San Marino",
+            "multipolygon": {
+                "file_name": "SM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Bahrain / البحرين",
+            "multipolygon": {
+                "file_name": "BH-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BH.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Liberia / Liberia",
+            "multipolygon": {
+                "file_name": "LR-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "LR.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Kiribati / Kiribati",
+            "multipolygon": {
+                "file_name": "KI-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "KI.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Solomon Islands / Solomon Islands",
+            "multipolygon": {
+                "file_name": "SB-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SB.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Eswatini / eSwatini",
+            "multipolygon": {
+                "file_name": "SZ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SZ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Qatar / قطر",
+            "multipolygon": {
+                "file_name": "QA-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "QA.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Yemen / اليمن",
+            "multipolygon": {
+                "file_name": "YE-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "YE.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Vatican City / Civitas Vaticana - Città del Vaticano",
+            "multipolygon": {
+                "file_name": "VA-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "VA.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Palau / Belau",
+            "multipolygon": {
+                "file_name": "PW-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "PW.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Pitcairn Islands / Pitcairn Islands",
+            "multipolygon": {
+                "file_name": "PN-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "PN.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Australia / Australia",
+            "multipolygon": {
+                "file_name": "AU-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "AU.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Comoros / Comores Komori جزر القمر",
+            "multipolygon": {
+                "file_name": "KM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "KM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Sri Lanka / ශ්‍රී ලංකාව இலங்கை",
+            "multipolygon": {
+                "file_name": "LK-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "LK.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Guinea-Bissau / Guiné-Bissau",
+            "multipolygon": {
+                "file_name": "GW-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GW.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Burkina Faso / Burkina Faso",
+            "multipolygon": {
+                "file_name": "BF-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BF.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Oman / عمان",
+            "multipolygon": {
+                "file_name": "OM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "OM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Burundi / Burundi",
+            "multipolygon": {
+                "file_name": "BI-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BI.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Marshall Islands / Ṃajeḷ",
+            "multipolygon": {
+                "file_name": "MH-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MH.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Federated States of Micronesia / Micronesia",
+            "multipolygon": {
+                "file_name": "FM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "FM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Saint Kitts and Nevis / Saint Kitts and Nevis",
+            "multipolygon": {
+                "file_name": "KN-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "KN.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Montserrat / Montserrat",
+            "multipolygon": {
+                "file_name": "MS-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MS.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Antigua and Barbuda / Antigua and Barbuda",
+            "multipolygon": {
+                "file_name": "AG-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "AG.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Faroe Islands / Føroyar",
+            "multipolygon": {
+                "file_name": "FO-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "FO.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Saudi Arabia / السعودية",
+            "multipolygon": {
+                "file_name": "SA-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SA.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Jordan / الأردن",
+            "multipolygon": {
+                "file_name": "JO-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "JO.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Eritrea / ኤርትራ Eritrea إرتريا",
+            "multipolygon": {
+                "file_name": "ER-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "ER.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Somalia / Soomaaliya الصومال",
+            "multipolygon": {
+                "file_name": "SO-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SO.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Malta / Malta",
+            "multipolygon": {
+                "file_name": "MT-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MT.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Chad / Tchad تشاد",
+            "multipolygon": {
+                "file_name": "TD-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TD.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Saint Lucia / Saint Lucia",
+            "multipolygon": {
+                "file_name": "LC-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "LC.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Saint Vincent and the Grenadines / Saint Vincent and the Grenadines",
+            "multipolygon": {
+                "file_name": "VC-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "VC.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Grenada / Grenada",
+            "multipolygon": {
+                "file_name": "GD-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GD.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Cyprus / Κύπρος - Kıbrıs",
+            "multipolygon": {
+                "file_name": "CY-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CY.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Benin / Bénin",
+            "multipolygon": {
+                "file_name": "BJ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BJ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Mauritania / موريتانيا",
+            "multipolygon": {
+                "file_name": "MR-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MR.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Uruguay / Uruguay",
+            "multipolygon": {
+                "file_name": "UY-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "UY.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Ethiopia / ኢትዮጵያ",
+            "multipolygon": {
+                "file_name": "ET-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "ET.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "United Arab Emirates / الإمارات العربية المتحدة",
+            "multipolygon": {
+                "file_name": "AE-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "AE.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "The Gambia / Gambia",
+            "multipolygon": {
+                "file_name": "GM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Senegal / Sénégal",
+            "multipolygon": {
+                "file_name": "SN-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SN.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Tunisia / تونس",
+            "multipolygon": {
+                "file_name": "TN-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TN.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Algeria / Algérie / ⵍⵣⵣⴰⵢⴻⵔ / الجزائر",
+            "multipolygon": {
+                "file_name": "DZ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "DZ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Tonga / Tonga",
+            "multipolygon": {
+                "file_name": "TO-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TO.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Ghana / Ghana",
+            "multipolygon": {
+                "file_name": "GH-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GH.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Togo / Togo",
+            "multipolygon": {
+                "file_name": "TG-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TG.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Fiji / Viti",
+            "multipolygon": {
+                "file_name": "FJ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "FJ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Israel / ישראל",
+            "multipolygon": {
+                "file_name": "IL-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "IL.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "British Indian Ocean Territory / British Indian Ocean Territory",
+            "multipolygon": {
+                "file_name": "IO-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "IO.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Côte d'Ivoire / Côte d’Ivoire",
+            "multipolygon": {
+                "file_name": "CI-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CI.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Panama / Panamá",
+            "multipolygon": {
+                "file_name": "PA-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "PA.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Cuba / Cuba",
+            "multipolygon": {
+                "file_name": "CU-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CU.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Kuwait / الكويت",
+            "multipolygon": {
+                "file_name": "KW-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "KW.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Botswana / Botswana",
+            "multipolygon": {
+                "file_name": "BW-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BW.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Sudan / السودان",
+            "multipolygon": {
+                "file_name": "SD-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SD.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Central African Republic / Ködörösêse tî Bêafrîka - République Centrafricaine",
+            "multipolygon": {
+                "file_name": "CF-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CF.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Belize / Belize",
+            "multipolygon": {
+                "file_name": "BZ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BZ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Bangladesh / বাংলাদেশ",
+            "multipolygon": {
+                "file_name": "BD-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BD.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Hungary / Magyarország",
+            "multipolygon": {
+                "file_name": "HU-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "HU.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Zimbabwe / Zimbabwe",
+            "multipolygon": {
+                "file_name": "ZW-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "ZW.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Slovakia / Slovensko",
+            "multipolygon": {
+                "file_name": "SK-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SK.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Kosovo / Kosova / Kosovo",
+            "multipolygon": {
+                "file_name": "XK-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "XK.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Dominican Republic / República Dominicana",
+            "multipolygon": {
+                "file_name": "DO-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "DO.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Haiti / Ayiti",
+            "multipolygon": {
+                "file_name": "HT-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "HT.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Malawi / Malawi",
+            "multipolygon": {
+                "file_name": "MW-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MW.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Denmark / Danmark",
+            "multipolygon": {
+                "file_name": "DK-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "DK.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Bhutan / འབྲུགཡུལ་",
+            "multipolygon": {
+                "file_name": "BT-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BT.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Sweden / Sverige",
+            "multipolygon": {
+                "file_name": "SE-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SE.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Bolivia / Bolivia",
+            "multipolygon": {
+                "file_name": "BO-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BO.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Trinidad and Tobago / Trinidad and Tobago",
+            "multipolygon": {
+                "file_name": "TT-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TT.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Angola / Angola",
+            "multipolygon": {
+                "file_name": "AO-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "AO.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Zambia / Zambia",
+            "multipolygon": {
+                "file_name": "ZM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "ZM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Estonia / Eesti",
+            "multipolygon": {
+                "file_name": "EE-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "EE.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Serbia / Србија",
+            "multipolygon": {
+                "file_name": "RS-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "RS.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "United Kingdom / United Kingdom",
+            "multipolygon": {
+                "file_name": "GB-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GB.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Ireland / Éire / Ireland",
+            "multipolygon": {
+                "file_name": "IE-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "IE.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "South Sudan / South Sudan",
+            "multipolygon": {
+                "file_name": "SS-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SS.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Rwanda / Rwanda",
+            "multipolygon": {
+                "file_name": "RW-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "RW.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Switzerland / Schweiz/Suisse/Svizzera/Svizra",
+            "multipolygon": {
+                "file_name": "CH-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CH.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Namibia / Namibia",
+            "multipolygon": {
+                "file_name": "NA-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "NA.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "South Africa / South Africa",
+            "multipolygon": {
+                "file_name": "ZA-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "ZA.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "El Salvador / El Salvador",
+            "multipolygon": {
+                "file_name": "SV-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SV.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Uganda / Uganda",
+            "multipolygon": {
+                "file_name": "UG-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "UG.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Democratic Republic of the Congo / République démocratique du Congo",
+            "multipolygon": {
+                "file_name": "CD-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CD.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "South Georgia and the South Sandwich Islands / South Georgia and the South Sandwich Islands",
+            "multipolygon": {
+                "file_name": "GS-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GS.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Greenland / Kalaallit Nunaat",
+            "multipolygon": {
+                "file_name": "GL-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GL.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Iceland / Ísland",
+            "multipolygon": {
+                "file_name": "IS-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "IS.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Cape Verde / Cabo Verde",
+            "multipolygon": {
+                "file_name": "CV-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CV.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Papua New Guinea / Papua Niugini",
+            "multipolygon": {
+                "file_name": "PG-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "PG.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Mozambique / Moçambique",
+            "multipolygon": {
+                "file_name": "MZ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MZ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "South Korea / 대한민국",
+            "multipolygon": {
+                "file_name": "KR-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "KR.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Costa Rica / Costa Rica",
+            "multipolygon": {
+                "file_name": "CR-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CR.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Czechia / Česko",
+            "multipolygon": {
+                "file_name": "CZ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CZ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Taiwan / 臺灣",
+            "multipolygon": {
+                "file_name": "TW-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TW.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Austria / Österreich",
+            "multipolygon": {
+                "file_name": "AT-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "AT.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "India / India",
+            "multipolygon": {
+                "file_name": "IN-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "IN.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Venezuela / Venezuela",
+            "multipolygon": {
+                "file_name": "VE-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "VE.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Croatia / Hrvatska",
+            "multipolygon": {
+                "file_name": "HR-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "HR.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Ecuador / Ecuador",
+            "multipolygon": {
+                "file_name": "EC-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "EC.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Montenegro / Crna Gora / Црна Гора",
+            "multipolygon": {
+                "file_name": "ME-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "ME.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Bosnia and Herzegovina / Bosna i Hercegovina / Босна и Херцеговина",
+            "multipolygon": {
+                "file_name": "BA-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BA.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Equatorial Guinea / Guinea Ecuatorial",
+            "multipolygon": {
+                "file_name": "GQ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GQ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Brazil / Brasil",
+            "multipolygon": {
+                "file_name": "BR-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BR.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Mongolia / Монгол улс ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ",
+            "multipolygon": {
+                "file_name": "MN-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MN.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "New Zealand / New Zealand/Aotearoa",
+            "multipolygon": {
+                "file_name": "NZ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "NZ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Morocco / Maroc / ⵍⵎⵖⵔⵉⴱ / المغرب",
+            "multipolygon": {
+                "file_name": "MA-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MA.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Suriname / Suriname",
+            "multipolygon": {
+                "file_name": "SR-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SR.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Guyana / Guyana",
+            "multipolygon": {
+                "file_name": "GY-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GY.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Norway / Norge",
+            "multipolygon": {
+                "file_name": "NO-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "NO.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Libya / ليبيا",
+            "multipolygon": {
+                "file_name": "LY-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "LY.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "East Timor / Timór Lorosa'e / Timor-Leste",
+            "multipolygon": {
+                "file_name": "TL-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TL.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Finland / Suomi / Finland",
+            "multipolygon": {
+                "file_name": "FI-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "FI.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Iraq / العراق",
+            "multipolygon": {
+                "file_name": "IQ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "IQ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Singapore / Singapore",
+            "multipolygon": {
+                "file_name": "SG-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SG.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Indonesia / Indonesia",
+            "multipolygon": {
+                "file_name": "ID-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "ID.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Latvia / Latvija",
+            "multipolygon": {
+                "file_name": "LV-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "LV.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Lithuania / Lietuva",
+            "multipolygon": {
+                "file_name": "LT-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "LT.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Chile / Chile",
+            "multipolygon": {
+                "file_name": "CL-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CL.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "North Macedonia / Северна Македонија",
+            "multipolygon": {
+                "file_name": "MK-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MK.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Albania / Shqipëria",
+            "multipolygon": {
+                "file_name": "AL-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "AL.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Greece / Ελλάς",
+            "multipolygon": {
+                "file_name": "GR-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GR.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Brunei / Brunei",
+            "multipolygon": {
+                "file_name": "BN-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BN.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Malaysia / Malaysia",
+            "multipolygon": {
+                "file_name": "MY-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MY.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Philippines / Philippines",
+            "multipolygon": {
+                "file_name": "PH-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "PH.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Nicaragua / Nicaragua",
+            "multipolygon": {
+                "file_name": "NI-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "NI.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Tokelau / Tokelau",
+            "multipolygon": {
+                "file_name": "TK-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TK.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Cook Islands / Kūki ʻĀirani",
+            "multipolygon": {
+                "file_name": "CK-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CK.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Kenya / Kenya",
+            "multipolygon": {
+                "file_name": "KE-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "KE.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Tanzania / Tanzania",
+            "multipolygon": {
+                "file_name": "TZ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TZ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Peru / Perú",
+            "multipolygon": {
+                "file_name": "PE-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "PE.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Colombia / Colombia",
+            "multipolygon": {
+                "file_name": "CO-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CO.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Moldova / Moldova",
+            "multipolygon": {
+                "file_name": "MD-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MD.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Romania / România",
+            "multipolygon": {
+                "file_name": "RO-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "RO.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Cambodia / ព្រះរាជាណាចក្រ​កម្ពុជា",
+            "multipolygon": {
+                "file_name": "KH-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "KH.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Pakistan / پاکستان",
+            "multipolygon": {
+                "file_name": "PK-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "PK.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Paraguay / Paraguay / Paraguái",
+            "multipolygon": {
+                "file_name": "PY-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "PY.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Argentina / Argentina",
+            "multipolygon": {
+                "file_name": "AR-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "AR.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Kyrgyzstan / Кыргызстан",
+            "multipolygon": {
+                "file_name": "KG-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "KG.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "North Korea / 조선민주주의인민공화국",
+            "multipolygon": {
+                "file_name": "KP-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "KP.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Tajikistan / Тоҷикистон",
+            "multipolygon": {
+                "file_name": "TJ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TJ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Japan / 日本",
+            "multipolygon": {
+                "file_name": "JP-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "JP.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Netherlands / Nederland",
+            "multipolygon": {
+                "file_name": "NL-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "NL.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Germany / Deutschland",
+            "multipolygon": {
+                "file_name": "DE-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "DE.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Bulgaria / България",
+            "multipolygon": {
+                "file_name": "BG-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BG.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Mali / Mali",
+            "multipolygon": {
+                "file_name": "ML-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "ML.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Guinea / Guinée",
+            "multipolygon": {
+                "file_name": "GN-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GN.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Syria / سوريا",
+            "multipolygon": {
+                "file_name": "SY-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SY.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Lebanon / لبنان",
+            "multipolygon": {
+                "file_name": "LB-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "LB.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Turkey / Türkiye",
+            "multipolygon": {
+                "file_name": "TR-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TR.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Armenia / Հայաստան",
+            "multipolygon": {
+                "file_name": "AM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "AM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Luxembourg / Lëtzebuerg",
+            "multipolygon": {
+                "file_name": "LU-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "LU.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Belgium / België / Belgique / Belgien",
+            "multipolygon": {
+                "file_name": "BE-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BE.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Portugal / Portugal",
+            "multipolygon": {
+                "file_name": "PT-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "PT.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Myanmar / မြန်မာ",
+            "multipolygon": {
+                "file_name": "MM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Thailand / ประเทศไทย",
+            "multipolygon": {
+                "file_name": "TH-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TH.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Laos / ປະເທດລາວ",
+            "multipolygon": {
+                "file_name": "LA-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "LA.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Spain / España",
+            "multipolygon": {
+                "file_name": "ES-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "ES.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "France / France",
+            "multipolygon": {
+                "file_name": "FR-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "FR.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Ukraine / Україна",
+            "multipolygon": {
+                "file_name": "UA-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "UA.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Russia / Россия",
+            "multipolygon": {
+                "file_name": "RU-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "RU.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Vietnam / Việt Nam",
+            "multipolygon": {
+                "file_name": "VN-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "VN.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Nigeria / Nigeria",
+            "multipolygon": {
+                "file_name": "NG-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "NG.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Cameroon / Cameroun",
+            "multipolygon": {
+                "file_name": "CM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Canada / Canada",
+            "multipolygon": {
+                "file_name": "CA-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CA.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Afghanistan / افغانستان",
+            "multipolygon": {
+                "file_name": "AF-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "AF.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Poland / Polska",
+            "multipolygon": {
+                "file_name": "PL-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "PL.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Belarus / Беларусь",
+            "multipolygon": {
+                "file_name": "BY-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "BY.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Nepal / नेपाल",
+            "multipolygon": {
+                "file_name": "NP-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "NP.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "China / 中国",
+            "multipolygon": {
+                "file_name": "CN-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CN.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Gabon / Gabon",
+            "multipolygon": {
+                "file_name": "GA-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GA.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Congo-Brazzaville / Congo",
+            "multipolygon": {
+                "file_name": "CG-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "CG.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Kazakhstan / Қазақстан",
+            "multipolygon": {
+                "file_name": "KZ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "KZ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Azerbaijan / Azərbaycan",
+            "multipolygon": {
+                "file_name": "AZ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "AZ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Georgia / საქართველო",
+            "multipolygon": {
+                "file_name": "GE-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GE.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Uzbekistan / Oʻzbekiston",
+            "multipolygon": {
+                "file_name": "UZ-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "UZ.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Honduras / Honduras",
+            "multipolygon": {
+                "file_name": "HN-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "HN.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Guatemala / Guatemala",
+            "multipolygon": {
+                "file_name": "GT-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "GT.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Mexico / México",
+            "multipolygon": {
+                "file_name": "MX-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "MX.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "United States / United States",
+            "multipolygon": {
+                "file_name": "US-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "US.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Turkmenistan / Türkmenistan",
+            "multipolygon": {
+                "file_name": "TM-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "TM.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Iran / ایران",
+            "multipolygon": {
+                "file_name": "IR-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "IR.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Slovenia / Slovenija",
+            "multipolygon": {
+                "file_name": "SI-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "SI.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "description": "Italy / Italia",
+            "multipolygon": {
+                "file_name": "IT-borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "IT.pbf",
+            "output_format": "pbf"
+        }
+    ]
+}
