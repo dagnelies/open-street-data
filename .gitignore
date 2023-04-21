@@ -1,6 +1,8 @@
 temp
 rclone.conf
 addresses
+extracts
+nohup*
 *jsonseq
 *.bz2
 *.gz
