@@ -1,7 +1,10 @@
 temp
 rclone.conf
+
 addresses
+borders
 extracts
+
 nohup*
 *jsonseq
 *.bz2

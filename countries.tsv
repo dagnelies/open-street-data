@@ -1,218 +1,250 @@
-ISO3166-1	ISO3166-1:alpha3	ISO3166-1:numeric	name:en	name	alt_name	wikidata	wikipedia
-AD	AND	020	Andorra	Andorra		Q228	ca:Andorra
-AE	ARE	784	United Arab Emirates	الإمارات العربية المتحدة		Q878	ar:الإمارات العربية المتحدة
-AF	AFG	004	Afghanistan	افغانستان		Q889	ps:افغانستان
-AG	ATG	028	Antigua and Barbuda	Antigua and Barbuda		Q781	en:Antigua and Barbuda
-AI	AIA	660	Anguilla	Anguilla		Q25228	en:Anguilla
-AL	ALB	008	Albania	Shqipëria		Q222	sq:Shqipëria
-AM	ARM	051	Armenia	Հայաստան		Q399	hy:Հայաստան
-AO	AGO	024	Angola	Angola		Q916	pt:Angola
-AR	ARG	032	Argentina	Argentina		Q414	es:Argentina
-AT	AUT	040	Austria	Österreich		Q40	de:Österreich
-AU	AUS	036	Australia	Australia		Q408	en:Australia
-AZ	AZE	031	Azerbaijan	Azərbaycan		Q227	az:Azərbaycan
-BA	BIH	070	Bosnia and Herzegovina	Bosna i Hercegovina / Босна и Херцеговина		Q225	en:Bosnia and Herzegovina
-BB	BRB	052	Barbados	Barbados		Q244	en:Barbados
-BD	BGD	050	Bangladesh	বাংলাদেশ		Q902	bn:বাংলাদেশ
-BE	BEL	056	Belgium	België / Belgique / Belgien		Q31	nl:België
-BF	BFA	854	Burkina Faso	Burkina Faso		Q965	fr:Burkina Faso
-BG	BGR	100	Bulgaria	България		Q219	bg:България
-BH	BHR	048	Bahrain	البحرين		Q398	ar:البحرين
-BI	BDI	108	Burundi	Burundi		Q967	rn:Uburundi
-BJ	BEN	204	Benin	Bénin		Q962	fr:Bénin
-BM	BMU	060	Bermuda	Bermuda		Q23635	en:Bermuda
-BN	BRN	096	Brunei	Brunei		Q921	ms:Brunei
-BO	BOL	068	Bolivia	Bolivia		Q750	es:Bolivia
-BR	BRA	076	Brazil	Brasil		Q155	pt:Brasil
-BS	BHS	044	The Bahamas	The Bahamas	Bahamas	Q778	en:The Bahamas
-BT	BTN	064	Bhutan	འབྲུགཡུལ་		Q917	dz:འབྲུག་ཡུལ་
-BW	BWA	072	Botswana	Botswana		Q963	tn:Botswana
-BY	BLR	112	Belarus	Беларусь		Q184	be:Беларусь
-BZ	BLZ	084	Belize	Belize		Q242	en:Belize
-CA	CAN	124	Canada	Canada		Q16	en:Canada
-CD	COD	180	Democratic Republic of the Congo	République démocratique du Congo	Congo-Kinshasa	Q974	fr:République démocratique du Congo
-CF	CAF	140	Central African Republic	Ködörösêse tî Bêafrîka - République Centrafricaine		Q929	fr:République centrafricaine
-CG	COG	178	Congo-Brazzaville	Congo		Q971	fr:République du Congo
-CH	CHE	756	Switzerland	Schweiz/Suisse/Svizzera/Svizra		Q39	de:Schweiz
-CI	CIV	384	Côte d'Ivoire	Côte d’Ivoire	Côte d'Ivoire	Q1008	fr:Côte d'Ivoire
-CK	COK	184	Cook Islands	Kūki ʻĀirani		Q26988	en:Cook Islands
-CL	CHL	152	Chile	Chile		Q298	es:Chile
-CM	CMR	120	Cameroon	Cameroun		Q1009	fr:Cameroun
-CN	CHN	156	China	中国		Q148	zh:中华人民共和国
-CO	COL	170	Colombia	Colombia		Q739	es:Colombia
-CR	CRI	188	Costa Rica	Costa Rica		Q800	es:Costa Rica
-CU	CUB	192	Cuba	Cuba		Q241	en:Cuba
-CV	CPV	132	Cape Verde	Cabo Verde		Q1011	pt:Cabo Verde
-CY	CYP	196	Cyprus	Κύπρος - Kıbrıs		Q229	en:Cyprus
-CZ	CZE	203	Czechia	Česko		Q213	en:Czech Republic
-DE	DEU	276	Germany	Deutschland		Q183	de:Deutschland
-DJ	DJI	262	Djibouti	Djibouti جيبوتي		Q977	ar:جيبوتي
-DK	DNK	208	Denmark	Danmark		Q35	da:Danmark
-DM	DMA	212	Dominica	Dominica		Q784	en:Dominica
-DO	DOM	214	Dominican Republic	República Dominicana		Q786	es:República Dominicana
-DZ	DZA	012	Algeria	Algérie / ⵍⵣⵣⴰⵢⴻⵔ / الجزائر		Q262	ar:الجزائر
-EC	ECU	218	Ecuador	Ecuador		Q736	es:Ecuador
-EE	EST	233	Estonia	Eesti		Q191	et:Eesti
-EG	EGY	818	Egypt	مصر		Q79	ar:مصر
-ER	ERI	232	Eritrea	ኤርትራ Eritrea إرتريا		Q986	ar:إريتريا
-ES	ESP	724	Spain	España		Q29	
-ET	ETH	231	Ethiopia	ኢትዮጵያ		Q115	am:ኢትዮጵያ
-FI	FIN	246	Finland	Suomi / Finland		Q33	fi:Suomi
-FJ	FJI	242	Fiji	Viti		Q712	en:Fiji
-FK	FLK	238	Falkland Islands	Falkland Islands		Q9648	en:Falkland Islands
-FM	FSM	583	Federated States of Micronesia	Micronesia		Q702	en:Federated States of Micronesia
-FO	FRO	234	Faroe Islands	Føroyar		Q4628	en:Faroe Islands
-FR	FRA	250	France	France		Q142	fr:France
-GA	GAB	266	Gabon	Gabon		Q1000	en:Gabon
-GB	GBR	826	United Kingdom	United Kingdom		Q145	en:United Kingdom
-GD	GRD	308	Grenada	Grenada		Q769	en:Grenada
-GE	GEO	268	Georgia	საქართველო		Q230	en:Georgia (country)
-GG	GGY	831	Guernsey	Guernsey		Q25230	fr:Bailliage de Guernesey
-GH	GHA	288	Ghana	Ghana		Q117	en:Ghana
-GI	GIB	292	Gibraltar	Gibraltar		Q1410	
-GL	GRL	304	Greenland	Kalaallit Nunaat		Q223	en:Greenland
-GM	GMB	270	The Gambia	Gambia	The Gambia	Q1005	en:The Gambia
-GN	GIN	324	Guinea	Guinée		Q1006	en:Guinea
-GQ	GNQ	226	Equatorial Guinea	Guinea Ecuatorial		Q983	es:Guinea Ecuatorial
-GR	GRC	300	Greece	Ελλάς	Ελλάδα	Q41	el:Ελλάδα
-GS	SGS	239	South Georgia and the South Sandwich Islands	South Georgia and the South Sandwich Islands		Q35086	en:South Georgia and the South Sandwich Islands
-GT	GTM	320	Guatemala	Guatemala		Q774	en:Guatemala
-GW	GNB	624	Guinea-Bissau	Guiné-Bissau		Q1007	en:Guinea-Bissau
-GY	GUY	328	Guyana	Guyana		Q734	en:Guyana
-HN	HND	340	Honduras	Honduras		Q783	en:Honduras
-HR	HRV	191	Croatia	Hrvatska		Q224	hr:Hrvatska
-HT	HTI	332	Haiti	Ayiti		Q790	ht:Ayiti
-HU	HUN	348	Hungary	Magyarország		Q28	hu:Magyarország
-ID	IDN	360	Indonesia	Indonesia	Negara Kesatuan Republik Indonesia	Q252	id:Indonesia
-IE	IRL	372	Ireland	Éire / Ireland	Republic of Ireland	Q27	en:Republic of Ireland
-IL	ISR	376	Israel	ישראל		Q801	en:Israel
-IM	IMN	833	Isle of Man	Isle of Man		Q9676	en:Isle of Man
-IN	IND	356	India	India	Hindustan	Q668	en:India
-IO	IOT	086	British Indian Ocean Territory	British Indian Ocean Territory		Q43448	en:British Indian Ocean Territory
-IQ	IRQ	368	Iraq	العراق	العِرَاقُ	Q796	ar:العراق
-IR	IRN	364	Iran	ایران		Q794	fa:ایران
-IS	ISL	352	Iceland	Ísland		Q189	is:Ísland
-IT	ITA	380	Italy	Italia		Q38	it:Italia
-JE	JEY	832	Jersey	Jersey		Q785	fr:Jersey
-JM	JAM	388	Jamaica	Jamaica		Q766	en:Jamaica
-JO	JOR	400	Jordan	الأردن		Q810	ar:الأردن
-JP	JPN	392	Japan	日本		Q17	ja:日本
-KE	KEN	404	Kenya	Kenya		Q114	en:Kenya
-KG	KGZ	417	Kyrgyzstan	Кыргызстан		Q813	en:Kyrgyzstan
-KH	KHM	116	Cambodia	ព្រះរាជាណាចក្រ​កម្ពុជា		Q424	en:Cambodia
-KI	KIR	296	Kiribati	Kiribati		Q710	en:Kiribati
-KM	COM	174	Comoros	Comores Komori جزر القمر		Q970	ar:جزر القمر
-KN	KNA	659	Saint Kitts and Nevis	Saint Kitts and Nevis		Q763	en:Saint Kitts and Nevis
-KP	PRK	408	North Korea	조선민주주의인민공화국		Q423	en:North Korea
-KR	KOR	410	South Korea	대한민국		Q884	ko:대한민국
-KW	KWT	414	Kuwait	الكويت		Q817	ar:الكويت
-KY	CYM	136	Cayman Islands	Cayman Islands		Q5785	en:Cayman Islands
-KZ	KAZ	398	Kazakhstan	Қазақстан		Q232	kk:Қазақстан
-LA	LAO	418	Laos	ປະເທດລາວ		Q819	en:Laos
-LB	LBN	422	Lebanon	لبنان		Q822	ar:لبنان
-LC	LCA	662	Saint Lucia	Saint Lucia		Q760	en:Saint Lucia
-LI	LIE	438	Liechtenstein	Liechtenstein		Q347	de:Liechtenstein
-LK	LKA	144	Sri Lanka	ශ්‍රී ලංකාව இலங்கை	Ceylon	Q854	cs:Srí Lanka
-LR	LBR	430	Liberia	Liberia		Q1014	en:Liberia
-LS	LSO	426	Lesotho	Lesotho		Q1013	en:Lesotho
-LT	LTU	440	Lithuania	Lietuva		Q37	lt:Lietuva
-LU	LUX	442	Luxembourg	Lëtzebuerg		Q32	en:Luxembourg
-LV	LVA	428	Latvia	Latvija		Q211	lv:Latvija
-LY	LBY	434	Libya	ليبيا		Q1016	ar:ليبيا
-MA	MAR	504	Morocco	Maroc / ⵍⵎⵖⵔⵉⴱ / المغرب		Q1028	ar:المغرب
-MC	MCO		Monaco	Monaco			
-MC	MCO	492	Monaco	Monaco		Q235	fr:Monaco
-MD	MDA	498	Moldova	Moldova		Q217	en:Moldova
-ME	MNE	499	Montenegro	Crna Gora / Црна Гора		Q236	en:Montenegro
-MG	MDG	450	Madagascar	Madagasikara / Madagascar		Q1019	fr:Madagascar
-MH	MHL	584	Marshall Islands	Ṃajeḷ		Q709	en:Marshall Islands
-MK	MKD	807	North Macedonia	Северна Македонија		Q221	mk:Македонија
-ML	MLI	466	Mali	Mali		Q912	fr:Mali
-MM	MMR	104	Myanmar	မြန်မာ		Q836	my:မြန်မာနိုင်ငံ
-MN	MNG	496	Mongolia	Монгол улс ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ		Q711	en:Mongolia
-MR	MRT	478	Mauritania	موريتانيا		Q1025	ar:موريتانيا
-MS	MSR	500	Montserrat	Montserrat		Q13353	en:Montserrat
-MT	MLT	470	Malta	Malta		Q233	en:Malta
-MU	MUS	480	Mauritius	Mauritius / Maurice		Q1027	fr:Maurice
-MV	MDV	462	Maldives	ދިވެހިރާއްޖެ		Q826	en:Maldives
-MW	MWI	454	Malawi	Malawi		Q1020	en:Malawi
-MX	MEX	484	Mexico	México		Q96	es:México
-MY	MYS	458	Malaysia	Malaysia		Q833	en:Malaysia
-MZ	MOZ	508	Mozambique	Moçambique		Q1029	pt:Moçambique
-NA	NAM	516	Namibia	Namibia		Q1030	en:Namibia
-NE	NER	562	Niger	Niger		Q1032	fr:Niger
-NG	NGA	566	Nigeria	Nigeria		Q1033	en:Nigeria
-NI	NIC	558	Nicaragua	Nicaragua		Q811	es:Nicaragua
-NL	NLD	528	Netherlands	Nederland		Q29999	nl:Koninkrijk der Nederlanden
-NO	NOR	578	Norway	Norge		Q20	no:Norge
-NP	NPL	524	Nepal	नेपाल		Q837	en:Nepal
-NR	NRU	520	Nauru	Naoero		Q697	en:Nauru
-NU	NIU	570	Niue	Niuē		Q34020	en:Niue
-NZ	NZL	554	New Zealand	New Zealand/Aotearoa		Q664	en:New Zealand
-OM	OMN	512	Oman	عمان		Q842	ar:سلطنة عمان
-PA	PAN	591	Panama	Panamá		Q804	es:Panamá
-PE	PER	604	Peru	Perú		Q419	es:Perú
-PG	PNG	598	Papua New Guinea	Papua Niugini		Q691	en:Papua New Guinea
-PH	PHL	608	Philippines	Philippines		Q928	en:Philippines
-PK	PAK	586	Pakistan	پاکستان		Q843	ur:پاکستان
-PL	POL	616	Poland	Polska		Q36	pl:Polska
-PN	PCN	612	Pitcairn Islands	Pitcairn Islands		Q35672	en:Pitcairn Islands
-PT	PRT	620	Portugal	Portugal		Q45	pt:Portugal
-PW	PLW	585	Palau	Belau		Q695	en:Palau
-PY	PRY	600	Paraguay	Paraguay / Paraguái		Q733	en:Paraguay
-QA	QAT	634	Qatar	قطر		Q846	ar:قطر
-RO	ROU	642	Romania	România		Q218	en:Romania
-RS	SRB	688	Serbia	Србија		Q403	sr:Србија
-RU	RUS	643	Russia	Россия		Q159	ru:Россия
-RW	RWA	646	Rwanda	Rwanda		Q1037	en:Rwanda
-SA	SAU	682	Saudi Arabia	السعودية		Q851	ar:السعودية
-SB	SLB	090	Solomon Islands	Solomon Islands		Q685	cs:Šalomounovy ostrovy
-SC	SYC	690	Seychelles	Sesel		Q1042	en:Seychelles
-SD	SDN	729	Sudan	السودان		Q1049	ar:السودان
-SE	SWE	752	Sweden	Sverige		Q34	sv:Sverige
-SG	SGP	702	Singapore	Singapore		Q334	en:Singapore
-SH	SHN	654	Saint Helena, Ascension and Tristan da Cunha	Saint Helena, Ascension and Tristan da Cunha		Q192184	en:Saint Helena, Ascension and Tristan da Cunha
-SI	SVN	705	Slovenia	Slovenija		Q215	sl:Slovenija
-SK	SVK	703	Slovakia	Slovensko		Q214	sk:Slovensko
-SL	SLE	694	Sierra Leone	Sierra Leone		Q1044	en:Sierra Leone
-SM	SMR	674	San Marino	San Marino		Q238	it:San Marino
-SN	SEN	686	Senegal	Sénégal		Q1041	fr:Sénégal
-SO	SOM	706	Somalia	Soomaaliya الصومال		Q1045	ar:الصومال
-SR	SUR	740	Suriname	Suriname		Q730	en:Suriname
-SS	SSD	728	South Sudan	South Sudan		Q958	en:South Sudan
-ST	STP	678	São Tomé and Príncipe	São Tomé e Príncipe		Q1039	pt:São Tomé e Príncipe
-SV	SLV	222	El Salvador	El Salvador		Q792	en:El Salvador
-SY	SYR	760	Syria	سوريا	سورية	Q858	ar:سوريا
-SZ	SWZ	748	Eswatini	eSwatini		Q1050	en:Eswatini
-TC	TCA	796	Turks and Caicos Islands	Turks and Caicos Islands		Q18221	en:Turks and Caicos Islands
-TD	TCD	148	Chad	Tchad تشاد		Q657	ar:تشاد
-TG	TGO	768	Togo	Togo		Q945	fr:Togo
-TH	THA	764	Thailand	ประเทศไทย		Q869	en:Thailand
-TJ	TJK	762	Tajikistan	Тоҷикистон		Q863	tg:Тоҷикистон
-TK	TKL	772	Tokelau	Tokelau		Q36823	en:Tokelau
-TL	TLS	626	East Timor	Timór Lorosa'e / Timor-Leste		Q574	pt:Timor-Leste
-TM	TKM	795	Turkmenistan	Türkmenistan		Q874	en:Turkmenistan
-TN	TUN	788	Tunisia	تونس		Q948	ar:تونس
-TO	TON	776	Tonga	Tonga		Q678	en:Tonga
-TR	TUR	792	Turkey	Türkiye		Q43	tr:Türkiye
-TT	TTO	780	Trinidad and Tobago	Trinidad and Tobago		Q754	en:Trinidad and Tobago
-TV	TUV	798	Tuvalu	Tuvalu		Q672	de:Tuvalu
-TW	TWN	158	Taiwan	臺灣	中華民國	Q865	zh:中華民國
-TZ	TZA	834	Tanzania	Tanzania		Q924	en:Tanzania
-UA	UKR	804	Ukraine	Україна		Q212	uk:Україна
-UG	UGA	800	Uganda	Uganda		Q1036	en:Uganda
-US	USA	840	United States	United States		Q30	en:United States
-UY	URY	858	Uruguay	Uruguay		Q77	es:Uruguay
-UZ	UZB	860	Uzbekistan	Oʻzbekiston		Q265	en:Uzbekistan
-VA	VAT	336	Vatican City	Civitas Vaticana - Città del Vaticano		Q237	it:Città del Vaticano
-VC	VCT	670	Saint Vincent and the Grenadines	Saint Vincent and the Grenadines		Q757	en:Saint Vincent and the Grenadines
-VE	VEN	862	Venezuela	Venezuela		Q717	en:Es:Venezuela
-VG	VGB	092	British Virgin Islands	British Virgin Islands		Q25305	en:British Virgin Islands
-VN	VNM	704	Vietnam	Việt Nam		Q881	vi:Việt Nam
-VU	VUT	548	Vanuatu	Vanuatu	Tân Đảo	Q686	bi:Ripablik blong Vanuatu
-WS	WSM	882	Samoa	Sāmoa		Q683	en:Samoa
-XK	XKX		Kosovo	Kosova / Kosovo		Q1246	en:Kosovo
-YE	YEM	887	Yemen	اليمن		Q805	ar:اليمن
-ZA	ZAF	710	South Africa	South Africa		Q258	en:South Africa
-ZM	ZMB	894	Zambia	Zambia		Q953	en:Zambia
-ZW	ZWE	716	Zimbabwe	Zimbabwe		Q954	en:Zimbabwe
+name	alpha-2	region	sub-region
+Afghanistan	AF	Asia	Southern Asia
+Åland Islands	AX	Europe	Northern Europe
+Albania	AL	Europe	Southern Europe
+Algeria	DZ	Africa	Northern Africa
+American Samoa	AS	Oceania	Polynesia
+Andorra	AD	Europe	Southern Europe
+Angola	AO	Africa	Sub-Saharan Africa
+Anguilla	AI	Americas	Latin America and the Caribbean
+Antarctica	AQ		
+Antigua and Barbuda	AG	Americas	Latin America and the Caribbean
+Argentina	AR	Americas	Latin America and the Caribbean
+Armenia	AM	Asia	Western Asia
+Aruba	AW	Americas	Latin America and the Caribbean
+Australia	AU	Oceania	Australia and New Zealand
+Austria	AT	Europe	Western Europe
+Azerbaijan	AZ	Asia	Western Asia
+Bahamas	BS	Americas	Latin America and the Caribbean
+Bahrain	BH	Asia	Western Asia
+Bangladesh	BD	Asia	Southern Asia
+Barbados	BB	Americas	Latin America and the Caribbean
+Belarus	BY	Europe	Eastern Europe
+Belgium	BE	Europe	Western Europe
+Belize	BZ	Americas	Latin America and the Caribbean
+Benin	BJ	Africa	Sub-Saharan Africa
+Bermuda	BM	Americas	Northern America
+Bhutan	BT	Asia	Southern Asia
+Bolivia (Plurinational State of)	BO	Americas	Latin America and the Caribbean
+Bonaire, Sint Eustatius and Saba	BQ	Americas	Latin America and the Caribbean
+Bosnia and Herzegovina	BA	Europe	Southern Europe
+Botswana	BW	Africa	Sub-Saharan Africa
+Bouvet Island	BV	Americas	Latin America and the Caribbean
+Brazil	BR	Americas	Latin America and the Caribbean
+British Indian Ocean Territory	IO	Africa	Sub-Saharan Africa
+Brunei Darussalam	BN	Asia	South-eastern Asia
+Bulgaria	BG	Europe	Eastern Europe
+Burkina Faso	BF	Africa	Sub-Saharan Africa
+Burundi	BI	Africa	Sub-Saharan Africa
+Cabo Verde	CV	Africa	Sub-Saharan Africa
+Cambodia	KH	Asia	South-eastern Asia
+Cameroon	CM	Africa	Sub-Saharan Africa
+Canada	CA	Americas	Northern America
+Cayman Islands	KY	Americas	Latin America and the Caribbean
+Central African Republic	CF	Africa	Sub-Saharan Africa
+Chad	TD	Africa	Sub-Saharan Africa
+Chile	CL	Americas	Latin America and the Caribbean
+China	CN	Asia	Eastern Asia
+Christmas Island	CX	Oceania	Australia and New Zealand
+Cocos (Keeling) Islands	CC	Oceania	Australia and New Zealand
+Colombia	CO	Americas	Latin America and the Caribbean
+Comoros	KM	Africa	Sub-Saharan Africa
+Congo	CG	Africa	Sub-Saharan Africa
+Congo, Democratic Republic of the	CD	Africa	Sub-Saharan Africa
+Cook Islands	CK	Oceania	Polynesia
+Costa Rica	CR	Americas	Latin America and the Caribbean
+Côte d'Ivoire	CI	Africa	Sub-Saharan Africa
+Croatia	HR	Europe	Southern Europe
+Cuba	CU	Americas	Latin America and the Caribbean
+Curaçao	CW	Americas	Latin America and the Caribbean
+Cyprus	CY	Asia	Western Asia
+Czechia	CZ	Europe	Eastern Europe
+Denmark	DK	Europe	Northern Europe
+Djibouti	DJ	Africa	Sub-Saharan Africa
+Dominica	DM	Americas	Latin America and the Caribbean
+Dominican Republic	DO	Americas	Latin America and the Caribbean
+Ecuador	EC	Americas	Latin America and the Caribbean
+Egypt	EG	Africa	Northern Africa
+El Salvador	SV	Americas	Latin America and the Caribbean
+Equatorial Guinea	GQ	Africa	Sub-Saharan Africa
+Eritrea	ER	Africa	Sub-Saharan Africa
+Estonia	EE	Europe	Northern Europe
+Eswatini	SZ	Africa	Sub-Saharan Africa
+Ethiopia	ET	Africa	Sub-Saharan Africa
+Falkland Islands (Malvinas)	FK	Americas	Latin America and the Caribbean
+Faroe Islands	FO	Europe	Northern Europe
+Fiji	FJ	Oceania	Melanesia
+Finland	FI	Europe	Northern Europe
+France	FR	Europe	Western Europe
+French Guiana	GF	Americas	Latin America and the Caribbean
+French Polynesia	PF	Oceania	Polynesia
+French Southern Territories	TF	Africa	Sub-Saharan Africa
+Gabon	GA	Africa	Sub-Saharan Africa
+Gambia	GM	Africa	Sub-Saharan Africa
+Georgia	GE	Asia	Western Asia
+Germany	DE	Europe	Western Europe
+Ghana	GH	Africa	Sub-Saharan Africa
+Gibraltar	GI	Europe	Southern Europe
+Greece	GR	Europe	Southern Europe
+Greenland	GL	Americas	Northern America
+Grenada	GD	Americas	Latin America and the Caribbean
+Guadeloupe	GP	Americas	Latin America and the Caribbean
+Guam	GU	Oceania	Micronesia
+Guatemala	GT	Americas	Latin America and the Caribbean
+Guernsey	GG	Europe	Northern Europe
+Guinea	GN	Africa	Sub-Saharan Africa
+Guinea-Bissau	GW	Africa	Sub-Saharan Africa
+Guyana	GY	Americas	Latin America and the Caribbean
+Haiti	HT	Americas	Latin America and the Caribbean
+Heard Island and McDonald Islands	HM	Oceania	Australia and New Zealand
+Holy See	VA	Europe	Southern Europe
+Honduras	HN	Americas	Latin America and the Caribbean
+Hong Kong	HK	Asia	Eastern Asia
+Hungary	HU	Europe	Eastern Europe
+Iceland	IS	Europe	Northern Europe
+India	IN	Asia	Southern Asia
+Indonesia	ID	Asia	South-eastern Asia
+Iran (Islamic Republic of)	IR	Asia	Southern Asia
+Iraq	IQ	Asia	Western Asia
+Ireland	IE	Europe	Northern Europe
+Isle of Man	IM	Europe	Northern Europe
+Israel	IL	Asia	Western Asia
+Italy	IT	Europe	Southern Europe
+Jamaica	JM	Americas	Latin America and the Caribbean
+Japan	JP	Asia	Eastern Asia
+Jersey	JE	Europe	Northern Europe
+Jordan	JO	Asia	Western Asia
+Kazakhstan	KZ	Asia	Central Asia
+Kenya	KE	Africa	Sub-Saharan Africa
+Kiribati	KI	Oceania	Micronesia
+Korea (Democratic People's Republic of)	KP	Asia	Eastern Asia
+Korea, Republic of	KR	Asia	Eastern Asia
+Kuwait	KW	Asia	Western Asia
+Kyrgyzstan	KG	Asia	Central Asia
+Lao People's Democratic Republic	LA	Asia	South-eastern Asia
+Latvia	LV	Europe	Northern Europe
+Lebanon	LB	Asia	Western Asia
+Lesotho	LS	Africa	Sub-Saharan Africa
+Liberia	LR	Africa	Sub-Saharan Africa
+Libya	LY	Africa	Northern Africa
+Liechtenstein	LI	Europe	Western Europe
+Lithuania	LT	Europe	Northern Europe
+Luxembourg	LU	Europe	Western Europe
+Macao	MO	Asia	Eastern Asia
+Madagascar	MG	Africa	Sub-Saharan Africa
+Malawi	MW	Africa	Sub-Saharan Africa
+Malaysia	MY	Asia	South-eastern Asia
+Maldives	MV	Asia	Southern Asia
+Mali	ML	Africa	Sub-Saharan Africa
+Malta	MT	Europe	Southern Europe
+Marshall Islands	MH	Oceania	Micronesia
+Martinique	MQ	Americas	Latin America and the Caribbean
+Mauritania	MR	Africa	Sub-Saharan Africa
+Mauritius	MU	Africa	Sub-Saharan Africa
+Mayotte	YT	Africa	Sub-Saharan Africa
+Mexico	MX	Americas	Latin America and the Caribbean
+Micronesia (Federated States of)	FM	Oceania	Micronesia
+Moldova, Republic of	MD	Europe	Eastern Europe
+Monaco	MC	Europe	Western Europe
+Mongolia	MN	Asia	Eastern Asia
+Montenegro	ME	Europe	Southern Europe
+Montserrat	MS	Americas	Latin America and the Caribbean
+Morocco	MA	Africa	Northern Africa
+Mozambique	MZ	Africa	Sub-Saharan Africa
+Myanmar	MM	Asia	South-eastern Asia
+Namibia	NA	Africa	Sub-Saharan Africa
+Nauru	NR	Oceania	Micronesia
+Nepal	NP	Asia	Southern Asia
+Netherlands	NL	Europe	Western Europe
+New Caledonia	NC	Oceania	Melanesia
+New Zealand	NZ	Oceania	Australia and New Zealand
+Nicaragua	NI	Americas	Latin America and the Caribbean
+Niger	NE	Africa	Sub-Saharan Africa
+Nigeria	NG	Africa	Sub-Saharan Africa
+Niue	NU	Oceania	Polynesia
+Norfolk Island	NF	Oceania	Australia and New Zealand
+North Macedonia	MK	Europe	Southern Europe
+Northern Mariana Islands	MP	Oceania	Micronesia
+Norway	NO	Europe	Northern Europe
+Oman	OM	Asia	Western Asia
+Pakistan	PK	Asia	Southern Asia
+Palau	PW	Oceania	Micronesia
+Palestine, State of	PS	Asia	Western Asia
+Panama	PA	Americas	Latin America and the Caribbean
+Papua New Guinea	PG	Oceania	Melanesia
+Paraguay	PY	Americas	Latin America and the Caribbean
+Peru	PE	Americas	Latin America and the Caribbean
+Philippines	PH	Asia	South-eastern Asia
+Pitcairn	PN	Oceania	Polynesia
+Poland	PL	Europe	Eastern Europe
+Portugal	PT	Europe	Southern Europe
+Puerto Rico	PR	Americas	Latin America and the Caribbean
+Qatar	QA	Asia	Western Asia
+Réunion	RE	Africa	Sub-Saharan Africa
+Romania	RO	Europe	Eastern Europe
+Russian Federation	RU	Europe	Eastern Europe
+Rwanda	RW	Africa	Sub-Saharan Africa
+Saint Barthélemy	BL	Americas	Latin America and the Caribbean
+Saint Helena, Ascension and Tristan da Cunha	SH	Africa	Sub-Saharan Africa
+Saint Kitts and Nevis	KN	Americas	Latin America and the Caribbean
+Saint Lucia	LC	Americas	Latin America and the Caribbean
+Saint Martin (French part)	MF	Americas	Latin America and the Caribbean
+Saint Pierre and Miquelon	PM	Americas	Northern America
+Saint Vincent and the Grenadines	VC	Americas	Latin America and the Caribbean
+Samoa	WS	Oceania	Polynesia
+San Marino	SM	Europe	Southern Europe
+Sao Tome and Principe	ST	Africa	Sub-Saharan Africa
+Saudi Arabia	SA	Asia	Western Asia
+Senegal	SN	Africa	Sub-Saharan Africa
+Serbia	RS	Europe	Southern Europe
+Seychelles	SC	Africa	Sub-Saharan Africa
+Sierra Leone	SL	Africa	Sub-Saharan Africa
+Singapore	SG	Asia	South-eastern Asia
+Sint Maarten (Dutch part)	SX	Americas	Latin America and the Caribbean
+Slovakia	SK	Europe	Eastern Europe
+Slovenia	SI	Europe	Southern Europe
+Solomon Islands	SB	Oceania	Melanesia
+Somalia	SO	Africa	Sub-Saharan Africa
+South Africa	ZA	Africa	Sub-Saharan Africa
+South Georgia and the South Sandwich Islands	GS	Americas	Latin America and the Caribbean
+South Sudan	SS	Africa	Sub-Saharan Africa
+Spain	ES	Europe	Southern Europe
+Sri Lanka	LK	Asia	Southern Asia
+Sudan	SD	Africa	Northern Africa
+Suriname	SR	Americas	Latin America and the Caribbean
+Svalbard and Jan Mayen	SJ	Europe	Northern Europe
+Sweden	SE	Europe	Northern Europe
+Switzerland	CH	Europe	Western Europe
+Syrian Arab Republic	SY	Asia	Western Asia
+Taiwan, Province of China	TW	Asia	Eastern Asia
+Tajikistan	TJ	Asia	Central Asia
+Tanzania, United Republic of	TZ	Africa	Sub-Saharan Africa
+Thailand	TH	Asia	South-eastern Asia
+Timor-Leste	TL	Asia	South-eastern Asia
+Togo	TG	Africa	Sub-Saharan Africa
+Tokelau	TK	Oceania	Polynesia
+Tonga	TO	Oceania	Polynesia
+Trinidad and Tobago	TT	Americas	Latin America and the Caribbean
+Tunisia	TN	Africa	Northern Africa
+Turkey	TR	Asia	Western Asia
+Turkmenistan	TM	Asia	Central Asia
+Turks and Caicos Islands	TC	Americas	Latin America and the Caribbean
+Tuvalu	TV	Oceania	Polynesia
+Uganda	UG	Africa	Sub-Saharan Africa
+Ukraine	UA	Europe	Eastern Europe
+United Arab Emirates	AE	Asia	Western Asia
+United Kingdom of Great Britain and Northern Ireland	GB	Europe	Northern Europe
+United States of America	US	Americas	Northern America
+United States Minor Outlying Islands	UM	Oceania	Micronesia
+Uruguay	UY	Americas	Latin America and the Caribbean
+Uzbekistan	UZ	Asia	Central Asia
+Vanuatu	VU	Oceania	Melanesia
+Venezuela (Bolivarian Republic of)	VE	Americas	Latin America and the Caribbean
+Viet Nam	VN	Asia	South-eastern Asia
+Virgin Islands (British)	VG	Americas	Latin America and the Caribbean
+Virgin Islands (U.S.)	VI	Americas	Latin America and the Caribbean
+Wallis and Futuna	WF	Oceania	Polynesia
+Western Sahara	EH	Africa	Northern Africa
+Yemen	YE	Asia	Western Asia
+Zambia	ZM	Africa	Sub-Saharan Africa
+Zimbabwe	ZW	Africa	Sub-Saharan Africa

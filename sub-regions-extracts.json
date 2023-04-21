@@ -1,0 +1,140 @@
+{
+    "extracts": [
+        {
+            "multipolygon": {
+                "file_name": "borders/Australia and New Zealand.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Australia and New Zealand.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Central Asia.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Central Asia.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Eastern Asia.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Eastern Asia.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Eastern Europe.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Eastern Europe.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Latin America and the Caribbean.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Latin America and the Caribbean.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Melanesia.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Melanesia.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Micronesia.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Micronesia.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Northern Africa.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Northern Africa.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Northern America.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Northern America.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Northern Europe.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Northern Europe.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Polynesia.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Polynesia.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/South-eastern Asia.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/South-eastern Asia.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Southern Asia.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Southern Asia.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Southern Europe.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Southern Europe.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Sub-Saharan Africa.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Sub-Saharan Africa.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Western Asia.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Western Asia.pbf",
+            "output_format": "pbf"
+        },
+        {
+            "multipolygon": {
+                "file_name": "borders/Western Europe.borders.geojson",
+                "file_type": "geojson"
+            },
+            "output": "temp/Western Europe.pbf",
+            "output_format": "pbf"
+        }
+    ]
+}
