@@ -4,11 +4,9 @@ set -e
 
 mkdir -p addresses
 
-CODE=$1
-COUNTRY=$1
+CC=$1
 
-export CODE
-export COUNTRY
+export CC
 
 bash convert.sh
 bash addresses.sh
