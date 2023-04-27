@@ -3,16 +3,20 @@ AD	2	country
 AD	7	city
 AE	2	country
 AE	4	state
+AE	8	city
 AF	2	country
 AF	4	state
 AF	6	province
+AF	8	city
 AG	2	country
-AI	2	country
+AG	4	state
+AG	6	city
+AI	2	country	No further admin_level boundaries on the island
 AL	2	country
 AL	6	county
 AL	7	municipality
 AL	8	city
-AL	9	city	Inconsistent labelling. Sometimes used as neighborhood, sometimes as city boundary where admin_level=8 is missing.
+AL	9	city	Inconsistent labelling. Sometimes used as neighborhood, sometimes as city boundary where admin_level=8 is missing. Probably because Kosovo independence issue.
 AM	2	country
 AM	4	state
 AM	8	city
@@ -47,6 +51,7 @@ AX	3	country
 AX	8	state
 AZ	2	country
 AZ	4	state
+AZ	5	city
 BA	2	country
 BA	4	state
 BA	5	province

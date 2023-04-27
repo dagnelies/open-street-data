@@ -4,4 +4,11 @@ geopandas
 pyogrio
 tqdm
 matplotlib
-contextily
+humanize
+
+folium
+mapclassify
+
+#dask-geopandas
+#datashader
+#contextily

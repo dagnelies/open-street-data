@@ -12,6 +12,13 @@
     .big-icon {
       height: 3rem;
     }
+
+    .filesize {
+      margin-left: 1rem;
+      margin-right: 1rem;
+      color: gray;
+      font-style: italic;
+    }
   </style>
   <link href="bootstrap.min.css" rel="stylesheet">
 </head>
@@ -46,7 +53,7 @@
   </header>
   -->
 
-  <main class="container mt-3">
+  <main id="app" class="container mt-3">
 
       <h1>OpenStreetData</h1>
 
@@ -78,230 +85,27 @@
         </a>
       </section>
 
-
       <h2 id="country-dumps">Country dumps</h2>
-
-      <p>Date produced: 2023-05-01</p>
 
       <table class="table table-striped table-hover table-sm">
         <thead>
-          <th>Country</th>
-          <th>Country Code</th>
-          <th>File</th>
-          <th>Size</th>
+          <th>Country code</th>
+          <th>Name</th>
+          <th>Extract</th>
+          <th>Borders</th>
         </thead>
         <tbody>
-          <tr>
-            <td>Andorra</td>
-            <td>AD</td>
-            <td><a href="#">andorra.geo.jsonseq.bz2</a></td>
-            <td>7 Mb</td>
+          <tr v-for="c in countries">
+            <td>{{c.code}}</td>
+            <td>{{c.name}}</td>
+            <td>
+              <a :href="'https://files.openstreetdata.org/extracts/' + c.code + '.osm.pbf'">{{c.code}}.osm.pbf</a>
+              <span class="filesize">{{c.extract_pbf_size}}</span>
+            </td>
+            <td>
+              <a :href="'https://files.openstreetdata.org/extracts/' + c.code + '-borders.geojson.bz2'">{{c.code}}-borders.geojson.bz2</a>
+            </td>
           </tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          <tr><td>Albania</td><td>AL</td><td><a href="#">albania.geo.jsonseq.bz2</a></td><td>37 Mb</td></tr>
-          
         </tbody>
       </table>
 
@@ -309,31 +113,29 @@
 
       <h2 id="addresses">Addresses</h2>
 
-      <p>Date produced: 2023-05-01</p>
-
       <table class="table table-striped table-hover table-sm">
         <thead>
-          <th>Country</th>
-          <th>Country Code</th>
-          <th>File</th>
-          <th>Size</th>
+          <th>Country code</th>
+          <th>Name</th>
+          <th>Streets</th>
+          <th>Houses</th>
+          <th>Log</th>
         </thead>
         <tbody>
-          <tr>
-            <td>Andorra</td>
-            <td>AD</td>
-            <td><a href="#">andorra-streets.tsv.bz2</a></td>
-            <td>7 Mb</td>
-            <td><a href="#">andorra-houses.tsv.bz2</a></td>
-            <td>7 Mb</td>
-          </tr>
-          <tr>
-            <td>Albania</td>
-            <td>AL</td>
-            <td><a href="#">albania-streets.tsv.bz2</a></td>
-            <td>37 Mb</td>
-            <td><a href="#">albania-houses.tsv.bz2</a></td>
-            <td>37 Mb</td>
+          <tr v-for="c in countries">
+            <td>{{c.code}}</td>
+            <td>{{c.name}}</td>
+            <td>
+              <a v-if="c.addresses_streets_size" :href="'https://files.openstreetdata.org/addresses/' + c.code + '-streets.tsv.gz'">{{c.code}}-streets.tsv.gz</a>
+              <span class="filesize">{{c.addresses_streets_size}}</span>
+            </td>
+            <td>
+              <a v-if="c.addresses_houses_size" :href="'https://files.openstreetdata.org/addresses/' + c.code + '-houses.tsv.gz'">{{c.code}}-houses.tsv.gz</a>
+              <span class="filesize">{{c.addresses_houses_size}}</span>
+            </td>
+            <td>
+              <a :href="'https://files.openstreetdata.org/addresses/' + c.code + '-run.html'">Log</a>
+            </td>
           </tr>
         </tbody>
       </table>
@@ -344,27 +146,7 @@
 
       <h2 id="points-of-interest">Points of interest</h2>
 
-      <p>Date produced: 2023-05-01</p>
-
-      <table class="table table-striped table-hover table-sm">
-        <thead>
-          <th>Type</th>
-          <th>File</th>
-          <th>Size</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td>schools</td>
-            <td><a href="#">schools.tsv.bz2</a></td>
-            <td>7 Mb</td>
-          </tr>
-          <tr>
-            <td>pharmacy</td>
-            <td><a href="#">pharmacy.tsv.bz2</a></td>
-            <td>37 Mb</td>
-          </tr>
-        </tbody>
-      </table>
+      <p>Not yet available. Sponsor me if you would like me to work on it.</p>
   </main>
 
   <!--
@@ -374,5 +156,19 @@
     </div>
   </footer>
   --> 
+
+  <script src="https://unpkg.com/vue@2"></script>
+  <script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+          countries: []
+        },
+        async created() {
+          const res = await fetch('countries.json')
+          this.countries = await res.json()
+        }
+    });
+  </script>
 </body>
 </html>
