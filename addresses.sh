@@ -13,7 +13,7 @@ echo "Rows: `wc -l temp/${CC}.geo.jsonseq`"
 
 echo "Filtering..."
 grep '"boundary":'         temp/${CC}.geo.jsonseq | grep '"type":"MultiPolygon"' > temp/${CC}-areas.geo.jsonseq
-grep '"highway":'          temp/${CC}.geo.jsonseq | grep '"name":'               > temp/${CC}-streets.geo.jsonseq
+grep '"highway":'          temp/${CC}.geo.jsonseq | grep '"type":"LineString"' | grep '"name":' > temp/${CC}-streets.geo.jsonseq
 grep '"addr:housenumber":' temp/${CC}.geo.jsonseq                                > temp/${CC}-housenums.geo.jsonseq
 grep '"building":'         temp/${CC}.geo.jsonseq | wc -l > temp/${CC}-building-count.txt
 

@@ -89,6 +89,7 @@
 
       <table class="table table-striped table-hover table-sm">
         <thead>
+          <th>Flag</th>
           <th>Country code</th>
           <th>Name</th>
           <th>Extract</th>
@@ -96,6 +97,13 @@
         </thead>
         <tbody>
           <tr v-for="c in countries">
+            <td>
+              <img
+                :src="'https://flagcdn.com/16x12/' + c.code.toLowerCase() + '.png'"
+                :srcset="'https://flagcdn.com/32x24/' + c.code.toLowerCase() + '.png 2x, https://flagcdn.com/48x36/' + c.code.toLowerCase() + '.png 3x'"
+                width="16" height="12"
+                :alt="c.name">
+            </td>
             <td>{{c.code}}</td>
             <td>{{c.name}}</td>
             <td>
@@ -115,6 +123,7 @@
 
       <table class="table table-striped table-hover table-sm">
         <thead>
+          <th>Flag</th>
           <th>Country code</th>
           <th>Name</th>
           <th>Streets</th>
@@ -123,6 +132,13 @@
         </thead>
         <tbody>
           <tr v-for="c in countries">
+            <td>
+              <img
+                :src="'https://flagcdn.com/16x12/' + c.code.toLowerCase() + '.png'"
+                :srcset="'https://flagcdn.com/32x24/' + c.code.toLowerCase() + '.png 2x, https://flagcdn.com/48x36/' + c.code.toLowerCase() + '.png 3x'"
+                width="16" height="12"
+                :alt="c.name">
+            </td>
             <td>{{c.code}}</td>
             <td>{{c.name}}</td>
             <td>
@@ -135,6 +151,9 @@
             </td>
             <td>
               <a :href="'https://files.openstreetdata.org/addresses/' + c.code + '-run.html'">Log</a>
+            </td>
+            <td>
+              {{c.completeness}}
             </td>
           </tr>
         </tbody>
