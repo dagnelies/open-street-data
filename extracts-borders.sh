@@ -3,7 +3,7 @@
 #apt install -y transmission-cli
 
 echo "--- Download OSM planet"
-transmission-cli https://planet.openstreetmap.org/pbf/planet-latest.osm.pbf.torrent -w .
+aria2c https://planet.openstreetmap.org/pbf/planet-latest.osm.pbf.torrent -w .
 mkdir -p extracts
 
 echo "--- Split data into one boundary per country"

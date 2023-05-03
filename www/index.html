@@ -1,13 +1,11 @@
-
 <!doctype html>
 <html lang="en" class="h-100" data-bs-theme="auto">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.111.3">
-  <title>Sticky Footer Navbar Template · Bootstrap v5.3</title>
+  <meta name="description" content="Data extracted from OpenStreetMap like country extracts and addresses.">
+  <title>OpenStreetData</title>
   <style>
     .big-icon {
       height: 3rem;
@@ -19,9 +17,20 @@
       color: gray;
       font-style: italic;
     }
+
+    .continent {
+      font-weight: bold;
+    }
+
+    .region {
+      color: gray;
+      font-style: italic;
+      font-weight: lighter;
+    }
   </style>
   <link href="bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body class="d-flex flex-column h-100">
   <!--
   <header>
@@ -55,117 +64,149 @@
 
   <main id="app" class="container mt-3">
 
-      <h1>OpenStreetData</h1>
+    <h1>OpenStreetData</h1>
 
-      <section class="row text-center my-5">
-        <a href="#country-dumps" class="card bg-light shadow col mx-3">
-          <div class="card-body">
-            <img class="big-icon" src="img/Globe.png" />
-            <h6>Country extracts</h6>
-            <p class="text-gray">
-              All data as "osm.pbf" or "geojson" file format.
-            </p>
-          </div>
-        </a>
-        <a href="#addresses"  class="card shadow col mx-3">
-          <div class="card-body">
-            <img class="big-icon" src="img/Home.png" />
-            <h6>Addresses</h6>
-            <p class="text-gray">
-              Extracted addresses in "tsv" format (tab separated values).
-              Includes areas, postal codes, streets and houses with geocoordinates.
-            </p>
-          </div>
-        </a>
-        <a href="#points-of-interest" class="card shadow col mx-3">
-          <div class="card-body">
-            <img class="big-icon" src="img/Favorite.png" />
-            <h6>Points of interest</h6>
-          </div>
-        </a>
-      </section>
-
-      <h2 id="country-dumps">Country dumps</h2>
-
-      <table class="table table-striped table-hover table-sm">
-        <thead>
-          <th>Flag</th>
-          <th>Country code</th>
-          <th>Name</th>
-          <th>Extract</th>
-          <th>Borders</th>
-        </thead>
-        <tbody>
-          <tr v-for="c in countries">
-            <td>
-              <img
-                :src="'https://flagcdn.com/16x12/' + c.code.toLowerCase() + '.png'"
-                :srcset="'https://flagcdn.com/32x24/' + c.code.toLowerCase() + '.png 2x, https://flagcdn.com/48x36/' + c.code.toLowerCase() + '.png 3x'"
-                width="16" height="12"
-                :alt="c.name">
-            </td>
-            <td>{{c.code}}</td>
-            <td>{{c.name}}</td>
-            <td>
-              <a :href="'https://files.openstreetdata.org/extracts/' + c.code + '.osm.pbf'">{{c.code}}.osm.pbf</a>
-              <span class="filesize">{{c.extract_pbf_size}}</span>
-            </td>
-            <td>
-              <a :href="'https://files.openstreetdata.org/extracts/' + c.code + '-borders.geojson.bz2'">{{c.code}}-borders.geojson.bz2</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      
-
-      <h2 id="addresses">Addresses</h2>
-
-      <table class="table table-striped table-hover table-sm">
-        <thead>
-          <th>Flag</th>
-          <th>Country code</th>
-          <th>Name</th>
-          <th>Streets</th>
-          <th>Houses</th>
-          <th>Log</th>
-        </thead>
-        <tbody>
-          <tr v-for="c in countries">
-            <td>
-              <img
-                :src="'https://flagcdn.com/16x12/' + c.code.toLowerCase() + '.png'"
-                :srcset="'https://flagcdn.com/32x24/' + c.code.toLowerCase() + '.png 2x, https://flagcdn.com/48x36/' + c.code.toLowerCase() + '.png 3x'"
-                width="16" height="12"
-                :alt="c.name">
-            </td>
-            <td>{{c.code}}</td>
-            <td>{{c.name}}</td>
-            <td>
-              <a v-if="c.addresses_streets_size" :href="'https://files.openstreetdata.org/addresses/' + c.code + '-streets.tsv.gz'">{{c.code}}-streets.tsv.gz</a>
-              <span class="filesize">{{c.addresses_streets_size}}</span>
-            </td>
-            <td>
-              <a v-if="c.addresses_houses_size" :href="'https://files.openstreetdata.org/addresses/' + c.code + '-houses.tsv.gz'">{{c.code}}-houses.tsv.gz</a>
-              <span class="filesize">{{c.addresses_houses_size}}</span>
-            </td>
-            <td>
-              <a :href="'https://files.openstreetdata.org/addresses/' + c.code + '-run.html'">Log</a>
-            </td>
-            <td>
-              {{c.completeness}}
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <section class="row text-center my-5">
+      <a href="#country-dumps" class="card bg-light shadow col mx-3">
+        <div class="card-body">
+          <img class="big-icon" src="img/Globe.png" />
+          <h6>Country extracts</h6>
+        </div>
+      </a>
+      <a href="#addresses" class="card shadow col mx-3">
+        <div class="card-body">
+          <img class="big-icon" src="img/Home.png" />
+          <h6>Addresses</h6>
+        </div>
+      </a>
+      <a href="#points-of-interest" class="card shadow col mx-3">
+        <div class="card-body">
+          <img class="big-icon" src="img/Favorite.png" />
+          <h6>Points of interest</h6>
+        </div>
+      </a>
+    </section>
 
 
-      
-      
+    <h2 id="country-dumps">Country dumps</h2>
 
-      <h2 id="points-of-interest">Points of interest</h2>
 
-      <p>Not yet available. Sponsor me if you would like me to work on it.</p>
+    <blockquote>
+      <p>Full data country extracts of OpenStreetMap as <code>osm.pbf</code> files.</p>
+      <p>Note that ways crossing the country borders are included, while areas that are not fully within the country are dropped.</p>
+      <p>Providing country extracts as <code>geojson</code> file format would be possible too. <a
+          href="https://github.com/sponsors/dagnelies">Sponsor me</a> and it might come one day.</p>
+    </blockquote>
+
+    <select v-model="filter" class="form-control">
+      <option></option>
+      <template v-for="(regions, continent) in areas">
+        <option class="continent">{{continent}}</option>
+        <option v-for="reg in regions" class="region">{{reg}}</option>
+      </template>
+    </select>
+
+    <table class="table table-striped table-hover table-sm">
+      <thead>
+        <th>Flag</th>
+        <th>Country code</th>
+        <th>Name</th>
+        <th>Extract</th>
+        <th>Borders</th>
+      </thead>
+      <tbody>
+        <tr v-for="c in countries.filter(isInArea)">
+          <td>
+            <img :src="'https://flagcdn.com/16x12/' + c.code.toLowerCase() + '.png'"
+              :srcset="'https://flagcdn.com/32x24/' + c.code.toLowerCase() + '.png 2x, https://flagcdn.com/48x36/' + c.code.toLowerCase() + '.png 3x'"
+              width="16" height="12" :alt="c.name">
+          </td>
+          <td>{{c.code}}</td>
+          <td>{{c.name}}</td>
+          <td>
+            <a :href="'https://files.openstreetdata.org/extracts/' + c.code + '.osm.pbf'">{{c.code}}.osm.pbf</a>
+            <span class="filesize">{{c.extract_pbf_size}}</span>
+          </td>
+          <td>
+            <a
+              :href="'https://files.openstreetdata.org/extracts/' + c.code + '-borders.geojson.bz2'">{{c.code}}-borders.geojson.bz2</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+    <h2 id="addresses">Addresses</h2>
+
+    <blockquote>
+      <p class="text-gray">
+        Extracted addresses in "tsv" format (tab separated values).
+        Includes administrative areas, postal codes, streets and houses with geocoordinates.
+      </p>
+      <p><b>Streets</b>: all streets in the country <i>having a name</i>.
+        Note that highways with identifiers like "A1" may or may not be included depending on how they are tagged.
+        Also, if a street crosses multiple administrative boundaries, only the main one will be listed.
+        For example, if a street joins two cities, it will be listed under a single city: the one containing the street
+        centroid.
+        However, if the street is tagged as multiple road sections in the raw data, it may appear in both.
+      </p>
+      <p><b>Houses</b>: all houses in the country <i>with a housenumber</i>.
+        Note that the coverage may vary wildly from region to region.
+      </p>
+    </blockquote>
+
+    <select v-model="filter" class="form-control">
+      <option></option>
+      <template v-for="(regions, continent) in areas">
+        <option class="continent">{{continent}}</option>
+        <option v-for="reg in regions" class="region">{{reg}}</option>
+      </template>
+    </select>
+
+    <table class="table table-striped table-hover table-sm">
+      <thead>
+        <th>Flag</th>
+        <th>Country code</th>
+        <th>Name</th>
+        <th>Streets</th>
+        <th>Houses</th>
+      </thead>
+      <tbody>
+        <tr v-for="c in countries.filter(isInArea)">
+          <td>
+            <img :src="'https://flagcdn.com/16x12/' + c.code.toLowerCase() + '.png'"
+              :srcset="'https://flagcdn.com/32x24/' + c.code.toLowerCase() + '.png 2x, https://flagcdn.com/48x36/' + c.code.toLowerCase() + '.png 3x'"
+              width="16" height="12" :alt="c.name">
+          </td>
+          <td>{{c.code}}</td>
+          <td>{{c.name}}</td>
+          <td>
+            <a v-if="c.addresses_streets_size"
+              :href="'https://files.openstreetdata.org/addresses/' + c.code + '-streets.tsv.gz'">{{c.code}}-streets.tsv.gz</a>
+            <span class="filesize">{{c.addresses_streets_size}}</span>
+          </td>
+          <td>
+            <a v-if="c.addresses_houses_size"
+              :href="'https://files.openstreetdata.org/addresses/' + c.code + '-houses.tsv.gz'">{{c.code}}-houses.tsv.gz</a>
+            <span class="filesize">{{c.addresses_houses_size}}</span>
+          </td>
+          <td v-if="debug">
+            <a :href="'https://files.openstreetdata.org/addresses/' + c.code + '-run.html'">Log</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
+
+    <h2 id="points-of-interest">Points of interest</h2>
+
+    <p>Not yet available. 
+      <a href="https://github.com/sponsors/dagnelies">Sponsor me</a> if you would like me to work on it.
+    </p>
   </main>
 
   <!--
@@ -174,20 +215,42 @@
       <span class="text-body-secondary">...</span>
     </div>
   </footer>
-  --> 
+  -->
 
   <script src="https://unpkg.com/vue@2"></script>
   <script>
     const app = new Vue({
-        el: '#app',
-        data: {
-          countries: []
+      el: '#app',
+      data: {
+        countries: [],
+        filter: null
+      },
+      computed: {
+        areas() {
+          const continents = {}
+          for (row of this.countries) {
+            const c = row.continent
+            const r = row.region
+            if (!continents[c])
+              continents[c] = [r]
+            else if (!continents[c].includes(r))
+              continents[c].push(r)
+          }
+          return continents
         },
-        async created() {
-          const res = await fetch('countries.json')
-          this.countries = await res.json()
+      },
+      methods: {
+        isInArea(row) {
+          const f = this.filter;
+          return !f || row.continent == f || row.region == f;
         }
+      },
+      async created() {
+        const res = await fetch('countries.json')
+        this.countries = await res.json()
+      }
     });
   </script>
 </body>
+
 </html>
