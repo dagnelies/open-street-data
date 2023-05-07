@@ -1,11 +1,9 @@
 #/bin/bash
-echo "Compress extract..."
-time pbzip2 -f temp/${COUNTRY}.geo.jsonseq
-mv temp/${COUNTRY}.geo.jsonseq.bz2 extracts/${COUNTRY}.geo.jsonseq.bz2
+echo "Compress extract borders..."
+time pbzip2 -f temp/*.geojson
 
 echo "Upload extract..."
-rclone --config="rclone.conf" copy extracts/${COUNTRY}.geo.jsonseq.bz2 r2:${CONTINENT}/
+rclone --config="rclone.conf" copy extracts/ r2:extracts/
 
 echo "Upload addresses..."
-rclone --config="rclone.conf" copy addresses/${COUNTRY}-streets.tsv.gz      r2:addresses/
-rclone --config="rclone.conf" copy addresses/${COUNTRY}-houses.tsv.gz       r2:addresses/
+rclone --config="rclone.conf" copy addresses/      r2:addresses/

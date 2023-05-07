@@ -145,15 +145,17 @@
         Includes administrative areas, postal codes, streets and houses with geocoordinates.
       </p>
       <p><b>Streets</b>: all streets in the country <i>having a name</i>.
-        Note that highways with identifiers like "A1" may or may not be included depending on how they are tagged.
+        Note that highways with identifiers like "A1" may or may not be included depending on how they are tagged in the raw data.
         Also, if a street crosses multiple administrative boundaries, only the main one will be listed.
         For example, if a street joins two cities, it will be listed under a single city: the one containing the street
         centroid.
         However, if the street is tagged as multiple road sections in the raw data, it may appear in both.
       </p>
-      <p><b>Houses</b>: all houses in the country <i>with a housenumber</i>.
+      <p><b>Houses</b>: all houses in the country <i>with a housenumber</i> and geocoordinates.
         Note that the coverage may vary wildly from region to region.
       </p>
+      <p><b>Addresses</b>: streets with house number ranges.
+        Unlike the <i>streets</i> dataset, the street might appear in multiple cities or postal code areas with corresponding house number range and street side (odd or even house numbers belonging to different administrative/postal areas).</p>
     </blockquote>
 
     <select v-model="filter" class="form-control">
@@ -171,6 +173,7 @@
         <th>Name</th>
         <th>Streets</th>
         <th>Houses</th>
+        <th>Addresses</th>
       </thead>
       <tbody>
         <tr v-for="c in countries.filter(isInArea)">
@@ -190,6 +193,11 @@
             <a v-if="c.addresses_houses_size"
               :href="'https://files.openstreetdata.org/addresses/' + c.code + '-houses.tsv.gz'">{{c.code}}-houses.tsv.gz</a>
             <span class="filesize">{{c.addresses_houses_size}}</span>
+          </td>
+          <td>
+            <a v-if="c.addresses_addresses_size"
+              :href="'https://files.openstreetdata.org/addresses/' + c.code + '-addresses.tsv.gz'">{{c.code}}-addresses.tsv.gz</a>
+            <span class="filesize">{{c.addresses_addresses_size}}</span>
           </td>
           <td v-if="debug">
             <a :href="'https://files.openstreetdata.org/addresses/' + c.code + '-run.html'">Log</a>
