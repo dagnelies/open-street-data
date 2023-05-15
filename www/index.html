@@ -111,7 +111,8 @@
         <th>Flag</th>
         <th>Country code</th>
         <th>Name</th>
-        <th>Extract</th>
+        <th>PBF</th>
+        <th>GeoJSON</th>
         <th>Borders</th>
       </thead>
       <tbody>
@@ -126,6 +127,9 @@
           <td>
             <a :href="'https://files.openstreetdata.org/extracts/' + c.code + '.osm.pbf'">{{c.code}}.osm.pbf</a>
             <span class="filesize">{{c.extract_pbf_size}}</span>
+          </td>
+          <td>
+            <a :href="'https://files.openstreetdata.org/extracts/' + c.code + '.geo.jsonseq.bz2'">{{c.code}}..geo.jsonseq.bz2</a>
           </td>
           <td>
             <a
